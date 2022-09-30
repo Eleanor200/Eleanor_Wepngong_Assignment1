@@ -7,7 +7,7 @@ int main()
     printf("Enter the value of num\n");
     scanf("%d", &num);
     for (i = 1; i <= num; i++)
-    {
+    {//checking if the numbers in the given range is even or odd.
         if (i % 2 == 0)
             even_sum = even_sum + i;
         else
